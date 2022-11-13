@@ -133,7 +133,7 @@ struct Homepage : View {
                         .font(Font.system(size: 16))
                         .multilineTextAlignment(.center)
                         .cornerRadius(22).padding(.top, 10)
-                    Text("Input Current Real Estate Investment Amount \nBelow:")
+                    Text("Input Current Real Estate Investment Amount \nBelow (Including Your home):")
                         .frame(width: 500, height: 45)
                         .foregroundColor(Color(.white))
                         .font(.system(size: 18))

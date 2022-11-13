@@ -16,6 +16,7 @@
 		6856DC3529202E1100177B7C /* MoneyMonkeyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856DC3429202E1100177B7C /* MoneyMonkeyUITestsLaunchTests.swift */; };
 		6856DC462920DA5900177B7C /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856DC452920DA5900177B7C /* PieChartView.swift */; };
 		6856DC482920DAB800177B7C /* PieSliceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856DC472920DAB800177B7C /* PieSliceView.swift */; };
+		6856DC4A2920FF4700177B7C /* RiskAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856DC492920FF4700177B7C /* RiskAnalysis.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		6856DC3429202E1100177B7C /* MoneyMonkeyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyMonkeyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6856DC452920DA5900177B7C /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 		6856DC472920DAB800177B7C /* PieSliceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSliceView.swift; sourceTree = "<group>"; };
+		6856DC492920FF4700177B7C /* RiskAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskAnalysis.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				6856DC1B29202E1000177B7C /* Assets.xcassets */,
 				6856DC452920DA5900177B7C /* PieChartView.swift */,
 				6856DC472920DAB800177B7C /* PieSliceView.swift */,
+				6856DC492920FF4700177B7C /* RiskAnalysis.swift */,
 				6856DC1D29202E1000177B7C /* Preview Content */,
 			);
 			path = MoneyMonkey;
@@ -267,6 +270,7 @@
 				6856DC1A29202E0B00177B7C /* ContentView.swift in Sources */,
 				6856DC482920DAB800177B7C /* PieSliceView.swift in Sources */,
 				6856DC1829202E0B00177B7C /* MoneyMonkeyApp.swift in Sources */,
+				6856DC4A2920FF4700177B7C /* RiskAnalysis.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

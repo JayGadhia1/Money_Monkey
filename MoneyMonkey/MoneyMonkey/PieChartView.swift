@@ -87,6 +87,7 @@ public struct PieChartView: View {
                     }
                     
                 }
+                NavigationLink(destination: RiskAnalysis(percents: self.values.map {($0 * 100 / self.values.reduce(0, +)) }), label: { Text("Click Here to View Potential Risks")})
                 PieChartRows(colors: self.colors, names: self.names, values: self.values.map { self.formatter($0) }, percents: self.values.map { String(format: "%.0f%%", $0 * 100 / self.values.reduce(0, +)) })
             }
             .background(self.backgroundColor)
